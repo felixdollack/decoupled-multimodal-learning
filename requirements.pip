@@ -23,4 +23,4 @@ simplegeneric==0.8.1
 six==1.10.0
 traitlets==4.2.1
 Wand==0.4.3
-yadlt==0.0.2rc3
+yadlt==0.0.6

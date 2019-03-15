@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from yadlt.models.autoencoder_models.deep_autoencoder import DeepAutoencoder
+from yadlt.models.autoencoders.deep_autoencoder import DeepAutoencoder
 
 
 class Autoencoder:
