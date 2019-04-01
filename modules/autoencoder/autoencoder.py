@@ -12,7 +12,7 @@ class Autoencoder:
             'enc_act_func': [tf.nn.sigmoid],
             'dec_act_func': [tf.nn.sigmoid],
             'finetune_num_epochs': finetune_epochs,
-            'finetune_loss_func': 'mean_squared',
+            'finetune_loss_func': 'mse',
             'finetune_dec_act_func': [tf.nn.sigmoid],
             'finetune_enc_act_func': [tf.nn.sigmoid],
             'finetune_opt': 'adam',
@@ -20,7 +20,6 @@ class Autoencoder:
             'finetune_batch_size': finetune_batch_size,
             'do_pretrain': pretrain,
             'num_epochs': [pretrain_epochs],
-            'verbose': 1,
             'corr_frac': [.5],
             'corr_type': ["masking"]
         }
